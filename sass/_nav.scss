@@ -1,0 +1,30 @@
+.nav-elements-wrap{
+  display: flex;
+ }
+.nav-elements-wrap{
+  border-bottom: 1px solid #7e95ae;
+  padding: 10px 0;
+}
+.nav{
+  li{
+   display: inline-block;
+   margin-right: 20px;
+  }
+  
+}
+.nav{
+  li{
+    &:last-child{
+     margin-right: 0;
+    }
+  }
+ 
+}
+.nav {
+  a{
+  color: $link-color;
+  text-decoration: none;
+  transition: all .3s ease;
+  }
+  
+}
